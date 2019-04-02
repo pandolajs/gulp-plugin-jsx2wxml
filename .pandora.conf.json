@@ -1,0 +1,14 @@
+{
+  "boilerplate": {
+    "name": "@pandolajs/pandora-boilerplate-boilerplate",
+    "version": "1.0.0",
+    "keywords": [
+      "pandora-boilerplate",
+      "boilerplate"
+    ]
+  },
+  "user": {
+    "name": "sizhao",
+    "email": "870301137@qq.com"
+  }
+}
