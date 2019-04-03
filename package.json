@@ -1,5 +1,5 @@
 {
-  "name": "gulp-plugin-jsx2wxml",
+  "name": "@pandolajs/gulp-plugin-jsx2wxml",
   "version": "1.0.0",
   "description": "A boilerplate to create pandora boilerplate",
   "main": "index.js",
@@ -20,5 +20,17 @@
     "url": "https://github.com/pandolajs/pandora-boilerplate-boilerplate/issues"
   },
   "homepage": "https://github.com/pandolajs/pandora-boilerplate-boilerplate#readme",
-  "private": true
+  "dependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/generator": "^7.4.0",
+    "@babel/parser": "^7.4.3",
+    "@babel/template": "^7.4.0",
+    "@babel/traverse": "^7.4.3",
+    "@babel/types": "^7.4.0",
+    "html": "^1.0.0",
+    "through2": "^3.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  }
 }

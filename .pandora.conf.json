@@ -1,11 +1,6 @@
 {
-  "boilerplate": {
-    "name": "@pandolajs/pandora-boilerplate-boilerplate",
-    "version": "1.0.0",
-    "keywords": [
-      "pandora-boilerplate",
-      "boilerplate"
-    ]
+  "templates": {
+    "jsx": "test"
   },
   "user": {
     "name": "sizhao",
