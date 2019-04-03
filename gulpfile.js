@@ -9,7 +9,9 @@ const gulp = require('gulp')
 const jsx2wxml = require('./src/index')
 
 gulp.task('default', (done) => {
-  gulp.src('test/**/*.jsx')
+  gulp.src('test/normal/*.jsx', {
+    base: 'test'
+  })
     .pipe(jsx2wxml())
     .pipe(gulp.dest('test'))
 
