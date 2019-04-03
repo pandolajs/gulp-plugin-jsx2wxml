@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pandolajs/pandora-boilerplate-boilerplate.git"
+    "url": "git+https://github.com/pandolajs/gulp-plugin-jsx2wxml.git"
   },
   "keywords": [
     "pandora-boilerplate",
@@ -17,9 +17,9 @@
   "author": "sizhao",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pandolajs/pandora-boilerplate-boilerplate/issues"
+    "url": "https://github.com/pandolajs/gulp-plugin-jsx2wxml/issues"
   },
-  "homepage": "https://github.com/pandolajs/pandora-boilerplate-boilerplate#readme",
+  "homepage": "https://github.com/pandolajs/gulp-plugin-jsx2wxml#readme",
   "dependencies": {
     "@babel/core": "^7.4.3",
     "@babel/generator": "^7.4.0",
