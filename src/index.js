@@ -34,7 +34,13 @@ module.exports = function (options = {}) {
     // transform
     traverse(ast, {
       JSXExpressionContainer (path) {
+        const isJSXElement = t.isJSXElement(path.parent)
 
+        if (isJSXElement) {
+          const opening = t.jsxOpeningElement('')
+          const blockElement = t.jsxElement()
+
+        }
       }
     })
 
